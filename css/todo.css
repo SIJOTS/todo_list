@@ -1,0 +1,7 @@
+.top{
+    display: flex;
+  justify-content: space-between !important;
+}
+.box{
+    margin-left: 10px;
+}

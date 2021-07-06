@@ -1,0 +1,104 @@
+/* 
+    padding : 0;
+    margin: 0;
+} 
+ {
+    padding: 0;
+    margin: 0;
+}
+
+ body{
+    background-size: cover;
+} 
+.head-tag{
+    float: right;
+    margin-top: 33px;
+    margin-right: 55px;
+}
+
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+}
+
+.head-tag a:hover{
+    background-color: tomato;
+    color: black;
+    transition: o.5s ease-in-out;
+
+}
+.sidebar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    padding: 100px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 2.5em;
+    margin-top: 30px;
+
+} 
+footer h3{
+    text-align: center;
+} */
+
+    body { 
+
+          
+    background-image: ('images/sing in.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'poppins', sans-serif;
+
+ }
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,4);
+    padding: 50px;
+    border-radius: 4px;
+} 
+form label {
+    display: block;
+    color:#fff;
+    font-size: 20px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+form input {
+    font-size: 18px;
+    padding: 7px;
+    width: 100%;
+    border: 1px solid #fff000;
+    color: #fff;
+    display: block;
+    background:transparent;
+}
+form input[type="submit"]{
+    width: 120px; 
+ margin-top: 10px;
+    cursor: pointer;
+}
+form{
+    color:#fff;
+    font-size: 17px;
+    font-weight: 200;
+}
+form p a{
+    color: #fff000;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-weight: 300;
+} 
